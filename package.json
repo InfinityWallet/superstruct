@@ -1,9 +1,12 @@
 {
-  "name": "superstruct",
+  "name": "@infinitywallet/superstruct",
   "description": "A simple and composable way to validate data in JavaScript (and TypeScript).",
   "version": "1.0.3",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/superstruct.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InfinityWallet/superstruct"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
